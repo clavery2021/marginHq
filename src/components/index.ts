@@ -1,3 +1,1 @@
-export * from './ComponentA';
-export * from './ComponentB';
-export * from './ComponentC';
+export { default as LandingPage } from './LandingPage';
