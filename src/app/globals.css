@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+/* Reset only what Tailwind doesn't handle */
+html {
+  scroll-behavior: smooth;
+}
