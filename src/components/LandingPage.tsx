@@ -208,7 +208,7 @@ export default function LandingPage() {
           <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
             {/* Left: marketing preview copy */}
             <div className="p-1">
-              <h2 className="mt-6 text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
+              <h2 className="mt-6 text-balance text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
                 Buy smarter.
                 <br />
                 Sell with confidence.
@@ -239,7 +239,7 @@ export default function LandingPage() {
             </div>
 
             {/* Right: deals preview list (minimal) */}
-            <div className="rounded-[28px] border border-white/10 bg-gradient-to-b from-white/5 to-black/10 p-5 shadow-xl shadow-black/30">
+            <div className="rounded-[28px] border border-white/10 bg-gradient-to-b from-white/5 to-black/10 p-3 sm:p-5 shadow-xl shadow-black/30">
               <div className="flex items-center justify-between">
                 <div>
                   <div className="text-sm font-semibold text-white">Top deals</div>
@@ -285,10 +285,10 @@ export default function LandingPage() {
                     score: '84',
                   },
                 ].map((d) => (
-                  <div key={d.title} className="rounded-2xl border border-white/10 bg-black/20 p-4">
-                    <div className="flex items-center justify-between gap-4">
-                      <div className="flex min-w-0 items-center gap-3">
-                        <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                  <div key={d.title} className="rounded-2xl border border-white/10 bg-black/20 p-3 sm:p-4">
+                    <div className="flex items-center justify-between gap-2 sm:gap-4">
+                      <div className="flex min-w-0 items-center gap-2 sm:gap-3">
+                        <div className="hidden sm:flex h-11 w-11 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
                           <div className="flex h-9 w-9 items-center justify-center rounded-2xl bg-black/15">
                             <span className="text-white/70">
                               <IconTag className="h-5 w-5" />
@@ -297,7 +297,7 @@ export default function LandingPage() {
                         </div>
                         <div className="min-w-0">
                           <div className="truncate text-sm font-semibold text-white/90">{d.title}</div>
-                          <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-white/55">
+                          <div className="mt-1 flex flex-wrap items-center gap-x-2 sm:gap-x-4 gap-y-1 text-xs text-white/55">
                             <span className="inline-flex items-center gap-2">
                               <span className="text-white/45">
                                 <IconTotal className="h-4 w-4" />
@@ -319,7 +319,7 @@ export default function LandingPage() {
                           </div>
                         </div>
                       </div>
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-xs font-semibold text-white/80">
+                      <div className="flex h-8 w-8 sm:h-10 sm:w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-xs font-semibold text-white/80">
                         {d.score}
                       </div>
                     </div>
