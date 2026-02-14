@@ -50,12 +50,10 @@ const LogoMark = ({ className = 'h-6 w-6' }: { className?: string }) => (
   >
     <defs>
       <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#818cf8" />
-        <stop offset="50%" stopColor="#38bdf8" />
+        <stop offset="0%" stopColor="#34d399" />
         <stop offset="100%" stopColor="#10b981" />
       </linearGradient>
     </defs>
-    <rect width="100" height="100" rx="22" fill="rgba(255,255,255,0.06)" />
     <text
       x="50"
       y="50"
@@ -80,8 +78,7 @@ const FaviconMark = ({ className = 'h-6 w-6' }: { className?: string }) => (
   >
     <defs>
       <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#818cf8" />
-        <stop offset="50%" stopColor="#38bdf8" />
+        <stop offset="0%" stopColor="#34d399" />
         <stop offset="100%" stopColor="#10b981" />
       </linearGradient>
     </defs>
